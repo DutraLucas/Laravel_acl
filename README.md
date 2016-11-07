@@ -1,27 +1,20 @@
-# Laravel PHP Framework
+# Lista de controle de acesso em Laravel
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Sistema em php Laravel de Lista de controle de acesso focado em usuários, roles, e permissions. Sistema adaptado para parte back-end e na parte front-end.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Instalação
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+* Download dos arquivos.
+* Alterar a conexão no arquivo '.env'.
+* Comentar o foreach no arquivo 'app/Providers/AuthServiceProvider.php', caso ele não estiver comentado o php artisan não funciona.
+* Instalação das tabelas Users, Roles, Permissions, entre no terminal até a pasta do sistema, em seguida digite a linha de código 'php artisan migrate'
+* Após a instalação das migrations instale as seeds
+* Primeiro instale os usuários 'php artisan db:seed --class=UserTableSeeder'
+* Segundo instale os roles 'php artisan db:seed --class=RoleTableSeeder'
+* Terceiro instale os permissions 'php artisan db:seed --class=PermissionTableSeeder'
+* Por ultimo instale os Posts 'php artisan db:seed --class=PostTableSeeder'
+* Após a instalação sistema pronto acesse a tela de login 'Usuário: admin@laravel.com' e 'Senha: admin1234'.  
 
-## Official Documentation
+## Considerações
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Este pequeno sistema foi desenvolvido com intuito de auxiliar desenvolvedores iniciantes no Laravel a ter uma ferramenta de base com acl e que desenvolvedores experientes ajude na melhoria da mesma.
