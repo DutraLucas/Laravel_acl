@@ -17,22 +17,22 @@ Sistema em php Laravel de Lista de controle de acesso focado em usuários, roles
 
 ##Imagens do sistema
 * Dashbord de entrada
-<img src="resources/assets/img/capturas/dashbord.jpg"/>
+<img src="https://raw.githubusercontent.com/DutraLucas/Laravel_acl/master/resources/assets/img/capturas/dashbord.JPG"/>
 
 * Tela de usuários
-<img src="resources/assets/img/capturas/users.jpg"/>
+<img src="https://raw.githubusercontent.com/DutraLucas/Laravel_acl/master/resources/assets/img/capturas/users.JPG"/>
 
 * Tela de roles dos usuários
-<img src="resources/assets/img/capturas/users_roles.jpg"/>
+<img src="https://raw.githubusercontent.com/DutraLucas/Laravel_acl/master/resources/assets/img/capturas/users_roles.JPG"/>
 
 * Tela de roles
-<img src="resources/assets/img/capturas/roles.jpg"/>
+<img src="https://raw.githubusercontent.com/DutraLucas/Laravel_acl/master/resources/assets/img/capturas/roles.JPG"/>
 
 * Tela de permissions dos roles
-<img src="resources/assets/img/capturas/roles_permissions.jpg"/>
+<img src="https://raw.githubusercontent.com/DutraLucas/Laravel_acl/master/resources/assets/img/capturas/roles_permissions.JPG"/>
 
 * Tela de permissions
-<img src="resources/assets/img/capturas/permissions.jpg"/>
+<img src="https://raw.githubusercontent.com/DutraLucas/Laravel_acl/master/resources/assets/img/capturas/permissions.JPG"/>
 
 ## Considerações
 
